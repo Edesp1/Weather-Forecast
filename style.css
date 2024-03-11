@@ -1,0 +1,49 @@
+body {
+    background-color: grey;
+}
+
+.MainW h1 {
+    text-align: center;
+    font-size: 75px;
+    border: 20px solid rgb(62, 62, 139);
+    padding: 10px;
+    margin: -10px;
+    background-color: rgb(62, 62, 139);
+}
+
+.search h1 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: left; 
+    flex-direction: column; 
+}
+
+.search .searchB {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px; 
+}
+
+.search input {
+    width: 250px;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 20px;
+    margin-bottom: 10px; 
+}
+
+.search button {
+    background-color: rgb(157, 157, 253);
+    padding: 10px 20px;
+    width: 225px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-self: flex-start;
+}
