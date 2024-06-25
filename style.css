@@ -47,3 +47,25 @@ body {
     cursor: pointer;
     align-self: flex-start;
 }
+
+#weatherData {
+    display: flex;
+}
+
+.forecast-day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    flex: 1; /* Makes all boxes equal width */
+    width: 150px; /* Minimum width of each forecast box */
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap; /* This allows the items to wrap if they exceed the container's width */
+    gap: 10px; /* Space between forecast boxes */
+}
+
+#currentWeather {
+    border: 2px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
