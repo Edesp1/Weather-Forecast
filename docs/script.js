@@ -11,7 +11,7 @@ $(function () {
 
 function fetchWeather(cityName) {
   var apiKey = "0ae6980ca849403b9c003014241103";
-  var apiUrl = "http://api.weatherapi.com/v1/forecast.json?key=" + apiKey + "&q=" + cityName + "&days=5&aqi=no&alerts=no"; //builds the url to display the weather. city name is chosen then displays said citynames location and weather information
+  var apiUrl = "https://api.weatherapi.com/v1/forecast.json?key=" + apiKey + "&q=" + cityName + "&days=5&aqi=no&alerts=no"; //builds the url to display the weather. city name is chosen then displays said citynames location and weather information
   
   $.ajax({
       url: apiUrl, //gets the desired url when chosing a city to display correct data
