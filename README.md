@@ -13,3 +13,6 @@
 
 ## license
 - this project is under the MIT license
+
+## Badges
+![badmath](https://img.shields.io/badge/license-MIT-blue)
